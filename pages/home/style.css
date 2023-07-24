@@ -1,0 +1,299 @@
+/* font-family: 'Public Sans', sans-serif; */
+/* font-family: 'Ibarra Real Nova', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+header,
+main,
+aside,
+section{
+    padding: 70px  300px;
+    padding-bottom: 0px;
+}
+
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Public Sans", sans-serif; 
+    font-weight: 400;
+    font-size:12px ;
+}
+
+
+nav ul li{
+    list-style: none;
+} 
+
+.menu{
+    display: flex;
+    gap: 50px;
+} 
+
+
+.navbar-link1{
+    color:#5FB4A2;
+}
+
+.navbar-link2,
+.navbar-link3 {
+    color:#33323D;
+}
+
+.home .computador{
+    max-width: 1265px;
+    padding-top: 50px;
+    
+}
+
+.texto-apresentacao{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 55px;
+    background-color: #FAFAFA;
+    color: #33323D;
+
+    width: 512px;
+    height: 406px;
+    font-weight: 700;
+
+    position: absolute;
+    top: -610px;
+    left: 0px;
+    
+
+    padding: 24px;
+
+}
+
+
+
+.apresentacao{
+    position: relative;
+}
+
+
+
+
+.botao-sobre-mim{ 
+
+    border: none;     
+    width: 200px;     
+    height: 50px;      
+    
+    display: flex;     
+    justify-content: space-between;     
+    align-items: center;      
+    
+    
+    background-color: #203A4C;    
+     color: white; 
+
+    position: relative;
+    top: -323px;
+    left: -300px;
+
+    font-family: 'Public Sans', sans-serif;
+}  
+
+
+section button svg{     
+    background-color: rgba(0,0,0, 0.1);     
+   
+    padding: 17px;     
+    
+    width: 50px;     
+    height: 50px; 
+}
+
+.sobre-mim{
+    position: relative;
+    margin-right: 30px;
+
+    font-size: 15px;
+
+    
+}
+
+.botao-sobre-mim:hover{
+    cursor: pointer;
+    background-color: #5FB4A2;
+    
+    
+
+}
+
+
+.profile{
+    width: 670px;
+}
+
+.sobre{
+    display: flex;
+    gap: 120px;
+
+    margin-top: -100px;
+}
+
+.paragrafo-aprentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    position: relative;
+    top: -10px;
+
+  text-align: justify;
+}
+
+.titulo{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+
+    font-size: 40px;
+
+    color:  #33323D;
+}
+
+.titulo::before{
+    content: '';
+    width: 476px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: -55px;
+
+    position: absolute;
+}
+
+.titulo::after{
+    content: '';
+    width: 476px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: 610px;
+
+    position: absolute;
+    
+}
+
+
+.paragrafo{
+    text-align: left;
+    width: 620px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    padding-right: 150px;
+
+    margin-top: -100px;
+    
+}
+
+.botao-portfolio{
+    cursor: pointer;
+    
+    background-color: #F2F2F2;;
+
+    width: 200px;
+    height: 50px;
+   
+    margin-left: 140px;
+
+    font-family: 'Public Sans', sans-serif ;
+    font-size: 12px;
+
+    position: relative;
+    top: -80px;
+
+    border: 1px solid #33323D
+}
+
+section{
+    margin-top: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h1{
+    height: 84px;
+    width: 367px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.botao-contato{
+    width: 168px;
+    height: 48px;
+
+    background-color: #F2F2F2;;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+
+    border: 1px solid #33323D;
+}
+
+.botao-contato:hover{
+    background-color:#33323D;
+    color: #FAFAFA;
+}
+
+footer{
+    
+    display: flex;
+    align-items: center;
+    
+    gap: 40px;
+    margin-top:150px;
+    padding-left: 290px;
+    
+    height: 80px;
+
+    background-color: #33323D;
+
+    
+}
+
+
+
+.navbar-footer{
+    display: flex;
+    gap: 20px;
+
+    color: white;
+    
+    font-family:'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+    
+    
+}
+
+.redes-sociais{
+    padding-left: 850px;
+}

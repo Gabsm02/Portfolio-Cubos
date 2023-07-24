@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    padding: 70px  300px;
+    padding-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    font-family: "Public Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+nav ul li{
+    list-style: none;
+} 
+
+.menu{
+    display: flex;
+    gap: 50px;
+    margin-right: 160px;
+
+   
+} 
+
+
+.navbar-link2{
+    color:#5FB4A2;
+}
+
+.navbar-link1,
+.navbar-link3 {
+    color:#33323D;
+}
+
+.imagem-fylo{
+    width: 1110px;
+    height: 500px;
+
+    position: absolute;
+    top: 190px;
+    left: 295px;
+}
+
+.secao-introducao{
+    position: absolute;
+    top: 900px;
+    left: 300px;
+}
+
+.titulo-fylo{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #33323D;
+}
+
+.titulo-fylo::before{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: -90px;
+
+    position: absolute;
+}
+
+.titulo-fylo::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: 400px;
+
+    position: absolute;
+}
+
+.paragrafo-fylo{
+    width: 350px;
+    height: 120px;
+
+    margin-top: 35px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+}
+
+.legenda{
+    width: 350px;
+    height: 30px;
+    
+    margin-top: 35px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #5FB4A2;
+
+}
+
+.skills{
+    width: 350px;
+    height: 30px;
+    
+    margin-top: 10px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #5FB4A2;
+
+}
+
+.botao-visitar{
+    cursor: pointer;
+    
+    width: 168px;
+    height: 48px;
+
+    margin-right: 55px;
+
+    background-color: #F2F2F2;;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+
+    border: 1px solid #33323D;
+
+    position: relative;
+    top: 35px;
+}
+
+.secao-projeto{
+    position: absolute;
+    top: 800px;
+    right: 750px;
+}
+
+.titulo-projeto{
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+} 
+
+.paragrafo-projeto{
+    width: 635px;
+    height: 180px;
+
+    position: absolute;
+
+    margin-top: 35px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 30px;
+
+    color: #33323D;
+}
+
+.previews-estatico{
+    position: absolute;
+    top: 1135px;
+    right: 475px;
+}
+
+.titulo-preview{
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+
+.preview-estatico-01{
+    width: 635px;
+    height: 400px;
+
+    margin-top: 35px;
+   
+    
+}
+
+.preview-estatico-02{
+    display: flex  ;
+    flex-direction: column;
+    position: absolute;
+    width: 635px;
+    height: 400px;
+
+    margin-top: 15px;
+
+}
+
+.navigation{
+    position: absolute;
+    top: 2150px;
+
+    display: flex;
+    gap: 780px;
+    
+    margin-left: 300px;
+}
+
+.navigation::before{
+    content: '';
+    width: 1087px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: -50px;
+
+    position: absolute;
+}
+
+.navigation::after{
+    content: '';
+    width: 1087px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+    display: block;
+    margin-top: 100px;
+
+    position: absolute;
+}
+
+.titulo-insure {
+    width: 59px;
+    height: 36px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    
+    color: #33323D;
+
+}
+
+.navigation-left {
+    position: relative;
+    padding-left: 20px; /* Espaçamento para a seta */
+  }
+  
+  .navigation-left::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 1px solid #33323D;
+    border-left: 1px solid #33323D;
+    transform: rotate(315deg);
+    top: 20px;
+    right: 130px;
+  }
+
+  .paragrafo-insure{
+    height: 30px;
+    width: 118px;
+    
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.titulo-manage{
+    width: 59px;
+    height: 36px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    
+    color: #33323D;
+
+}
+
+.navigation-left {
+    position: relative;
+    padding-left: 20px; /* Espaçamento para a seta */
+  }
+  
+  .navigation-right::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 1px solid #33323D;
+    border-left: 1px solid #33323D;
+    transform: rotate(135deg);
+    top: 20px;
+    right: -50px;
+  }
+
+  .paragrafo-manage{
+    height: 30px;
+    width: 118px;
+    
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.contato{
+    margin-top: 2300px;
+    margin-left: 300px;
+    margin-right: 420px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+
+.contato h1{
+    height: 84px;
+    width: 367px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.botao-contato{
+    width: 168px;
+    height: 48px;
+
+    margin-right: 55px;
+
+    background-color: #F2F2F2;;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+
+    border: 1px solid #33323D;
+}
+
+.botao-contato:hover{
+    background-color:#33323D;
+    color: #FAFAFA;
+}
+
+footer{
+    
+    display: flex;
+    align-items: center;
+    
+    gap: 40px;
+    margin-top:200px;
+    padding-left: 290px;
+    
+    height: 80px;
+
+    background-color: #33323D;
+
+    
+}
+
+
+
+.navbar-footer{
+    display: flex;
+    gap: 20px;
+
+    color: white;
+    
+    font-family:'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+    
+    
+}
+
+.redes-sociais{
+    padding-left: 670px;
+}
